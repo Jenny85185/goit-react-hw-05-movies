@@ -1,12 +1,12 @@
 import { Route, Routes } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import fetchTrending from 'Api/Api';
-import { Home } from './Home/Home';
-import { Layout } from './Layout/Layout';
-import { MovieDetails } from './MovieDetails/MovieDetails';
-import { Cast } from './Cast/Cast';
-import { Movies } from './Movies/Movies';
-import { Reviews } from './Reviews/Reviews';
+import { Home } from '../Home/Home';
+import { Layout } from '../Layout/Layout';
+import { MovieDetails } from '../MovieDetails/MovieDetails';
+import { Cast } from '../Cast/Cast';
+import { Movies } from '../Movies/Movies';
+import { Reviews } from '../Reviews/Reviews';
 
 
 export const App = () => {

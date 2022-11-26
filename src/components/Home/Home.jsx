@@ -1,4 +1,4 @@
-import { HomeList } from '../HomeList';
+import { HomeList } from './HomeList';
 import { TrendingTitle } from './Home.styled';
 
 export const Home = ({ trendFilms }) => {

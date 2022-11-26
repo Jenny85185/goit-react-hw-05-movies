@@ -58,7 +58,6 @@ export const Input = styled(Field)`
   &::placeholder {
     font: inherit;
     font-size: 18px;
-  
   }
   margin-left:10px;
 `;

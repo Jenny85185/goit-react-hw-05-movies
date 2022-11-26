@@ -1,4 +1,4 @@
-import { HomeList } from 'components/HomeList';
+import { HomeList } from 'components/Home/HomeList';
 import { SearchBox } from 'components/SearchBox/SearchBox';
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
