@@ -18,12 +18,7 @@ export const SearchBox = ({ onSubmit }) => {
       <Formik initialValues={initialValues} onSubmit={searchSubmit}>
         <Header>
           <FormSearch>
-            <ButtonSubmit type="submit">
-              <span>
-                <FiSearch size={20} />
-              </span>
-            </ButtonSubmit>
-
+            
             <Input
               type="text"
               name="value"
@@ -31,6 +26,12 @@ export const SearchBox = ({ onSubmit }) => {
               autoFocus
               placeholder="Search films"
             />
+            <ButtonSubmit type="submit">
+              <span>
+                <FiSearch size={20} />
+              </span>
+            </ButtonSubmit>
+
           </FormSearch>
         </Header>
       </Formik>
