@@ -25,16 +25,16 @@ export const Cast = () => {
 
     return `https://www.themoviedb.org/t/p/w500${profile_path}`;
   }
-  
+
   return (
     <MainActor>
       <ActorCards>
         {cast
           ? cast.map(({ name, character, profile_path, id, original_name }) => {
-              const imgUrl = `https://www.themoviedb.org/t/p/w500${profile_path}`;
+             
               return (
                 <li key={id}>
-                  <img src={imgUrl} alt="actor" width="100" />
+                  <img src={setProfile(profile_path)} alt="actor" width="100" />
                   <p>{name || original_name}</p>
                   <p>Character: {character}</p>
                 </li>
